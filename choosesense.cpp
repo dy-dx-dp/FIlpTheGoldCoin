@@ -7,7 +7,7 @@ ChooseSense::ChooseSense(QWidget *parent) :
 {
     ui->setupUi(this);
     setFixedSize(300, 520);
-    setWindowTitle("金币翻转");
+    setWindowTitle("金币翻转小游戏");
     QPixmap background(":/res/OtherSceneBg.png");
     QPalette palette;
     palette.setBrush(QPalette::Window, background.scaled(this->width(),this->height()));
